@@ -1,0 +1,103 @@
+body {
+     background-color: #000;
+}
+
+header {
+    border-radius: 8px;
+    background: linear-gradient(to right, #000, #552583, #FDB927, #552583, #000)
+}
+
+/* TEXTOS */
+
+h1, h2 {
+    text-align: center;
+    color: rgb(238, 241, 4);
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+a {
+    color: rgb(238, 241, 4);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px 20px;
+}
+
+a:hover {
+    color: #000;
+}
+
+.enviar {
+    background-color: #FDB927;
+}
+
+.enviar:hover {
+    color: #FDB927;
+    background-color: #552583;
+}
+
+p {
+    font-size: 20px;
+    color: #FDB927;
+}
+
+.bio {
+    text-align: center;
+}
+
+.logros {
+    color: #FDB927;
+    text-align: center;
+}
+
+
+
+.ppp {
+    font-size: 15px;
+    font-weight: bold;
+}
+/* TERMINACION DE TEXTOS */
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 900px;
+}
+
+main {
+    display: inline-block;
+    width: 95%s;
+    margin: 10px;
+}
+
+.formulario {
+    color: #FDB927;
+    
+}
+
+form {
+    background-image: url(/img/Kobe8.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+footer {
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(238, 241, 4);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    background: linear-gradient(to right, #000, #552583, #FDB927, #552583, #000);
+}
