@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,74 +9,98 @@
 
     <!-- LINK ICONO PESTAÑA -->
     <link rel="shortcut icon" href="iconos/logo3.ico" type="image/x-icon">
-    
+
     <!-- LINK BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- LINK CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body>
 
-    <div class="imgFondo">
-        
-    </div>
-
+<body class="container-fluid">
     <!-- HEADER Y NAVBAR -->
-    <header>
-        <h1>Kobe Bryant Fan Page</h1>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Inicio</a></li>
-                <li> <a href="Biografia.html">Biografía</a></li>
-                <li> <a href="Logros.html">Logros</a></li>
-                <li> <a href="imagenes.html">Imágenes</a></li>
-                <li> <a href="Videos.html">Videos</a></li>
-            </ul>
+
+    <header class="navbar navbar-expand-lg encabezado">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img class="logo" src="/img/logo7-removebg.png" alt="Logo"></a>
+            <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="tituloPrincipal">Kobe Bryant Fan Page</h1>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link enlaces" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces" aria-current="page" href="Biografia.html">Biografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces" href="Logros.html">Logros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces" href="imagenes.html">Imágenes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link enlaces" href="Videos.html">Videos</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <button class="boton">Inscribite</button>
-        
     </header>
 
+
     <!-- MAIN -->
-    
-    <main> 
-            
-        <div class="item1">
-                <p>Bienvenidos a la página <strong>no oficial</strong> del mítico jugador de Los Angeles Lakers, Kobe Bryant.
-                Aquí podrás encontrar información tanto personal como deportiva de una de las leyendas del baloncesto norteamericano (y mundial).
-                También hay secciones de imágenes y videos para que puedas disfrutar de ver su juego y su ética de entrenamiento.
-                Inspiración de muchos deportistas, mentor de muchos chicos, uno de los deportistas más ganadores que el baloncesto pudo haber visto.
-                Espero te guste y puedas disfrutar de la página.</p>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="img/Kobe1111.png.webp" class="d-block mx-lg-auto img-fluid" alt="Kobe" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="display-5 fw-bold lh-1 mb-3">Bienvenidos fanáticos!</h2>
+                <p class="lead">Bienvenidos a la página no oficial del mítico jugador de Los Angeles
+                    Lakers, Kobe
+                    Bryant.
+                    Aquí podrás encontrar información, tanto personal como deportiva, de una de las leyendas del
+                    baloncesto
+                    norteamericano y mundial.
+                    También hay secciones de imágenes y videos para que puedas disfrutar de ver su juego y su ética de
+                    entrenamiento.
+                    Inspiración de muchos deportistas, mentor de muchos chicos, uno de los deportistas más ganadores que
+                    el
+                    baloncesto pudo haber visto.
+                    Espero te guste y puedas disfrutar de la página.</p>
+            </div>
         </div>
-            
-         <!-- FORMULARIO -->
-             
-       <div class="item2">
-          <P class="parraform">Este es un espacio para que dejen sus comentarios.</P>
-             <form class="formulario">
-                <label for="Nombre">Nombre</label> <br>
-                <input type="text"> <br><br>
-                <label for="Edad">Edad</label> <br>
-                <input type="text"> <br><br>
-                <label for="Ciudad">Ciudad</label> <br>
-                <input type="text"> <br><br>
-                <label for="Deje su comentario">Deje su comentario</label> <br>
-                <textarea name="hola" id="form" cols="30" rows="10"></textarea> <br><br>
-                <input class="enviar" type="submit" value="Enviar">
-            </form>
+    </div>
+
+
+    <!-- FORMULARIO -->
+    <div class="form">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
         </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button class="enviar" type="submit">ENVIAR</button>
+        </div>
+    </div>
 
-
-
-    </main>  
-    
     <!-- FOOTER -->
     <footer>
         <p>Página sin fines de lucro</p>
-    </footer> 
+    </footer>
 
     <!-- LINK JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
