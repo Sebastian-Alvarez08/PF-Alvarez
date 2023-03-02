@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KB | Biografía</title>
 
+    <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- LINK ICONO PESTAÑA -->
     <link rel="shortcut icon" href="iconos/logo3.ico" type="image/x-icon">
 
@@ -22,7 +25,8 @@
 
     <!-- HEADER Y NAVBAR -->
 
-    <header class="navbar navbar-expand-lg encabezado">
+    <header class="navbar navbar-expand-lg encabezado" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="300" data-aos-offset="0">
         <nav class="container-fluid">
             <a class="navbar-brand" href="../index.html"> <img class="logo" src="/img/logo7-removebg.png"
                     alt="Logo"></a>
@@ -53,9 +57,12 @@
         </nav>
     </header>
 
-    <div>
-        <h2>Biografía</h2>
-        <p>Kobe Bryant nació el 23 de agosto de 1978 en Filadelfia, Pensilvania.
+    <main class="main" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0">
+        <h2 class="lead2">Biografía</h2>
+        <div class="imgBio">
+            <img class="img-fluid" src="/img/kobeblack-removebg.png" alt="Kobe Bio">
+        </div>
+        <p class="lead">Kobe Bryant nació el 23 de agosto de 1978 en Filadelfia, Pensilvania.
 
             Fue el hijo el menor tras sus hermanas Shaya y Sharia, de Pamela Cox Bryant y de Joe "Jellybean" Bryan, ex
             jugador de Philadelphia 76ers. <br>
@@ -110,12 +117,18 @@
             cuando el aparato colisionó con una colina en Calabasas (California). En él también viajaba su hija, Gianna
             Maria Onore. Gigi tenía 13 años. Se dirigían hacia la Mamba Academy para un entrenamiento.
         </p>
-    </div>
+    </main>
 
     <!-- FOOTER -->
-    <footer>
-        <p>Página sin fines de lucro</p>
+    <footer class="footer">
+        <p class="lead">Página sin fines de lucro</p>
     </footer>
+
+    <!-- LINK AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- LINK JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

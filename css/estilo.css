@@ -25,6 +25,10 @@ body {
     border: #552583 2px solid;
 }
 
+.navbar-nav {
+    text-align: right;
+}
+
 .tituloPrincipal {
     color: #FDB927;
     transition: 0.5s;
@@ -57,12 +61,22 @@ body {
 
 /* MAIN */
 
-p {
+.imgInicio {
+    display: flex;
+    justify-content: center;
+}
+
+.main .lead1 {
+    color: #FDB927;
+    font-size: 1.5rem;
+}
+
+.lead {
     font-size: 1rem;
     color: #FDB927;
 }
 
-h2 {
+.lead2 {
     text-align: center;
     color: rgb(238, 241, 4);
     text-decoration: none;
@@ -152,7 +166,7 @@ h2 {
 
 /* FOOTER */
 
-footer {
+.footer {
     width: 100%;
     height: 80px;
     text-align: center;

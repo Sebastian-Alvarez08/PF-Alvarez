@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KB | Imágenes</title>
 
+    <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- LINK ICONO PESTAÑA -->
     <link rel="shortcut icon" href="iconos/logo3.ico" type="image/x-icon">
 
@@ -20,7 +23,8 @@
 
 <body class="container-fluid">
 
-    <header class="navbar navbar-expand-lg encabezado">
+    <header class="navbar navbar-expand-lg encabezado" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="300" data-aos-offset="0">
         <nav class="container-fluid">
             <a class="navbar-brand" href="index.html"> <img class="logo" src="/img/logo7-removebg.png" alt="Logo"></a>
             <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -50,42 +54,50 @@
         </nav>
     </header>
 
-    <h2>Galería de imágenes</h2>
+    <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0">
+        <h2 class="lead2">Galería de imágenes</h2>
 
-    <div class="row">
-        <div class="column">
-            <img class="imgGaleria" src="./img/Kobe50.png" alt="image 1">
-            <img class="imgGaleria" src="./img/Kobe51.png" alt="image 2">
-            <img class="imgGaleria" src="./img/Kobe52.png" alt="image 3">
-            <img class="imgGaleria" src="./img/Kobe53.png" alt="image 4">
-        </div>
+        <div class="row">
+            <div class="column">
+                <img class="imgGaleria" src="./img/Kobe50.png" alt="image 1">
+                <img class="imgGaleria" src="./img/Kobe51.png" alt="image 2">
+                <img class="imgGaleria" src="./img/Kobe52.png" alt="image 3">
+                <img class="imgGaleria" src="./img/Kobe53.png" alt="image 4">
+            </div>
 
-        <div class="column">
-            <img class="imgGaleria" src="./img/Kobe54.png" alt="image 5">
-            <img class="imgGaleria" src="./img/Kobe55.png" alt="image 6">
-            <img class="imgGaleria" src="./img/Kobe56.png" alt="image 7">
-            <img class="imgGaleria" src="./img/Kobe57.png" alt="image 8">
-        </div>
+            <div class="column">
+                <img class="imgGaleria" src="./img/Kobe54.png" alt="image 5">
+                <img class="imgGaleria" src="./img/Kobe55.png" alt="image 6">
+                <img class="imgGaleria" src="./img/Kobe56.png" alt="image 7">
+                <img class="imgGaleria" src="./img/Kobe57.png" alt="image 8">
+            </div>
 
-        <div class="column">
-            <img class="imgGaleria" src="./img/Kobe58.png" alt="image 9">
-            <img class="imgGaleria" src="./img/Kobe59.png" alt="image 10">
-            <img class="imgGaleria" src="./img/Kobe60.png" alt="image 11">
-            <img class="imgGaleria" src="./img/Kobe61.png" alt="image 12">
-        </div>
-        
-        <div class="column">
-            <img class="imgGaleria" src="./img/Kobe62.png" alt="image 13">
-            <img class="imgGaleria" src="./img/Kobe63.png" alt="image 14">
-            <img class="imgGaleria" src="./img/Kobe64.png" alt="image 15">
-            <img class="imgGaleria" src="./img/Kobe65.png" alt="image 16">
+            <div class="column">
+                <img class="imgGaleria" src="./img/Kobe58.png" alt="image 9">
+                <img class="imgGaleria" src="./img/Kobe59.png" alt="image 10">
+                <img class="imgGaleria" src="./img/Kobe60.png" alt="image 11">
+                <img class="imgGaleria" src="./img/Kobe61.png" alt="image 12">
+            </div>
+
+            <div class="column">
+                <img class="imgGaleria" src="./img/Kobe62.png" alt="image 13">
+                <img class="imgGaleria" src="./img/Kobe63.png" alt="image 14">
+                <img class="imgGaleria" src="./img/Kobe64.png" alt="image 15">
+                <img class="imgGaleria" src="./img/Kobe65.png" alt="image 16">
+            </div>
         </div>
     </div>
 
     <!-- FOOTER -->
-    <footer>
-        <p>Página sin fines de lucro</p>
+    <footer class="footer">
+        <p class="lead">Página sin fines de lucro</p>
     </footer>
+
+    <!-- LINK AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- LINK JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
