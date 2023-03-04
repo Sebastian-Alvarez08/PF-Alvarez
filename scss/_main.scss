@@ -1,0 +1,29 @@
+/* MAIN */
+.imgInicio {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    .lead1 {
+        color: $color_1;
+        font-size: 1.5rem;
+    }
+}
+
+.lead {
+    font-size: 1rem;
+    color: $color_1;
+}
+
+.lead2 {
+    text-align: center;
+    color: $color_3;
+    text-decoration: none;
+}
+
+.logros {
+    color: $color_1;
+    text-align: center;
+    list-style-type: none;
+}

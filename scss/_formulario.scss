@@ -1,0 +1,30 @@
+/* FORMULARIO */
+.form-label {
+    color: $color_1;
+}
+
+.form {
+    padding: 20px;
+    margin: 10px;
+    border: #552583 2px solid;
+    border-radius: 8px;
+}
+
+.enviar {
+    width: 30vh;
+    height: 5vh;
+    font-weight: bold;
+    border: #552583 2px solid;
+    border-radius: 5px;
+    background-color: $background-color_2;
+    margin-top: 10px;
+    transition: 0.5s;
+
+    &:hover {
+        height: 6vh;
+        font-weight: bold;
+        color: $color_1;
+        background-color: $background-color_3;
+        border: #FDB927 2px solid;
+    }
+}
